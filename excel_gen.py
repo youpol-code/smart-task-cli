@@ -33,6 +33,8 @@ def create_report() -> None:
     ws.column_dimensions['A'].width = 20
     ws.column_dimensions['D'].width = 15
 
+    ws.auto_filter.ref=ws.dimensions
+
     filename="report_output.xlsx"
     wb.save(filename)
     print(f"สร้างไฟล์ {filename} เสร็จสมบูรณ์ (ลองเปิดดูสิ สวยไหม?)!")
