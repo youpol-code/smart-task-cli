@@ -13,20 +13,6 @@ def get_valid_number(dataTyype: str,message: str) -> int | float :
     except ValueError:
         return -1
 
-# def inputWeight() -> int: # return weight is good, return -1=have problem
-#     try:
-#         weight: int = int(input("กรุณาใส่นำ้หนัก: "))
-#         return weight
-#     except ValueError:
-#         return -1
-
-# def inputHeight() -> float: # return weight is good, return -1=have problem
-#     try:
-#         height: float =float(input("กรุณาใส่ส่วนสูง: "))
-#         return height
-#     except ValueError:
-#         return -1
-    
 
 
 
